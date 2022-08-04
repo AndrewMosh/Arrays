@@ -58,10 +58,10 @@ for (var i = 0; i < names.length; i++) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (firstLetter === 'j' || names[i].includes("J")) {
+  if (names[i].includes("J")) {
    console.log("Good Bye " + names[i]);
   } else {
-    console.log("Hello "names[i]);
+    console.log("Hello " + names[i]);
   }
 }
 
