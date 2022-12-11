@@ -1,2 +1,2 @@
-# js-array2
-hw 3
+# Arrays
+
